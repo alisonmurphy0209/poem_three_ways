@@ -31,12 +31,45 @@ body {
 
 @media screen and (max-width: 767px) {
     body {
-      background-color: #F2F0D6;
+      background-color:#FAF5AC;
+    }
+    .poem {
+      text-align: left;
+    }
+    .author {
+      text-align: center;
+      color: navy;
+    }
+    .title1 {
+      text-align: center;
+      color: navy;
+    }
+    .title2 {
+      text-align: center ;
+      color: navy;
     }
   }
 
   @media screen and (max-width: 1024px) and (min-width: 768px) {
     body {
-      background-color: #F2F0D6;
+      background-color: #FFFBC9;
+      
+    }
+      .poem {
+        text-align: right;
+      }
+      .author {
+        text-align: left;
+        color: darkred;
+      }
+      .title1 {
+        text-align: left;
+        color: darkred;
+        margin-left: .5em;
+      }
+      .title2 {
+        text-align: center ;
+        color: darkred;
+      }
     }
   }
